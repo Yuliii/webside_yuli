@@ -1,0 +1,43 @@
+    /* inicio seccion tres */
+
+
+.container {
+    width: 1440px;
+    height: 240px;
+    background-color: #F7941E;
+}
+
+.container_title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: #000000;
+}
+
+.container_title_dos {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #000000;
+    line-height: 0%
+}
+
+.get_started_buttons .btn {
+    width: 200px;
+    height: 50px;
+}
+
+.get_started_buttons .btn-dark {
+    align-items: center;
+    background-color: #231F20;
+    margin-right: 16px;
+    border-radius: 5px
+}
+
+.get_started_buttons .btn-secondary {
+    margin-right: 100px;
+    background-color: #F7941E;
+    border: 1px solid #000000;
+    color: #000000;
+}
+
+
+     /*fin seccion tres /*
