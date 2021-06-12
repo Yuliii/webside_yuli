@@ -1,65 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="css/styles.css" />
     <title>landing page</title>
-</head>
-<body>
+  </head>
+  <body>
 
 
-<!--*******************************************  Modulo 4.  ********************************************-->
+    <!--*******************************************  Modulo 4. blog  ********************************************-->
 
-<div class="blog">
 
-<!-- Header -->
-    <div class="blog__header">
-        <h1 class="blog__title">Our Best Blogs Ever</h1>
-        <p class="blog__text">“Try our blog to find the best tips and tricks to select your gift”</p>   
-    </div>
-<!-- contenedor -->
-    <div class="card mb-3">
+    <div class="blog container">
+      <!-- Header -->
+      <div class="blog__header text-center lh-lg">
+        <h1 class="blog__title fw-normal mt-5 mb-3">Our Best Blogs Ever</h1>
+        <p class="blog__text mb-5">
+          “Try our blog to find the best tips and tricks to select your gift”
+        </p>
+      </div>
+
+      <!-- contenedor -->
+      <div class="blog_content card mb-5 rounded bg-dark text-white">
         <div class="row g-0">
-        <div class="col-md-4">
-            <img src="./assets/novios.png" alt="novios">
-        </div>
-        <div class="col-md-8">
-            <div class="card-body">
-            <p class="card-title">Mr. John Doe</p>
-            <h1 class="card-text">The best way to wish your wife</h1>
-            <p class="card-text"><small class="text-muted">Read More</small></p>
+          <div class="col-md-5">
+            <img
+              class="blog__content--imagen roundend img-fluid"
+              src="./assets/novios.png"
+              alt="novios"
+            />
+          </div>
+          <div
+            class="col-md-7 text-md-start text-center d-flex align-items-center"
+          >
+            <div class="blog__content--body card-body">
+              <p class="card-title">Mr. John Doe</p>
+              <h1 class="card-text">
+                The best way to wish <br />
+                your wife
+              </h1>
+              <p class="card-text">
+                <small class="text-muted">Read More</small>
+              </p>
             </div>
+          </div>
         </div>
+      </div>
+
+      <!-- card -->
+      <div class="blog__card d-flex row">
+        <div
+          class="card-body shadow-sm p-3 mb-5 bg-body rounded col-12 col-md-6"
+        >
+          <h2 class="card-title">
+            Database to find the gifts for your girlfriend
+          </h2>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore...
+          </p>
+          <p class="card-text"><small class="text-muted">Read More</small></p>
         </div>
+        <div class="card-body col-12 col-md-6">
+          <h2 class="card-title">
+            How Artificial Intelligence read your mind to find the best gift
+          </h2>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore...
+          </p>
+          <p class="card-text"><small class="text-muted">Read More</small></p>
+        </div>
+      </div>
     </div>
-<!-- card -->
-    <div class="blog__card">
-        <div class="card-body">
-            <h2 class="card-title">Database to find the gifts for your girlfriend</h2>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
-            <p class="card-text"><small class="text-muted">Read More</small></p>
-        </div>
-        <div class="card-body">
-            <h2 class="card-title">How Artificial Intelligence read your mind to find the best gift</h2>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
-            <p class="card-text"><small class="text-muted">Read More</small></p>
-        </div>
 
-    </div>
-
-</div>
-
-
-
-
-
-
-
-<!--******************************************* Fin Modulo 4.  ********************************************-->
+    <!--******************************************* Fin Modulo 4.  ********************************************-->
 
     
-</body>
+  </body>
 </html>
