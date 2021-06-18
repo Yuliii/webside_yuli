@@ -1,3 +1,5 @@
+/* Footer: Andres */
+
 .footer-navbar {
   display: flex;
   flex-direction: row;
@@ -56,3 +58,5 @@
 .footer-end div {
   padding-top: 50px;
 }
+
+/* Footer END */
