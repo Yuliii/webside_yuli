@@ -1,8 +1,41 @@
     /* Sección dos */
 
 
-.gifts__content {
+.gifts {
     font-family: 'Roboto', sans-serif;
+    margin: 135px;
+    width: 100%;
+    text-align: center;
+    color:black;
+}
+
+.gifts h1 {
+    font-size: 32px;
+    padding-bottom: 23px;
+}
+
+.gifts p {
+    font-size: 18px;
+    padding-bottom: 64px;
+}
+
+.gifts h3 {
+    font-size: 20px;
+    padding: 24px 0 74px 24px;
+    font-weight: bold;
+}
+
+.gifts__content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    text-align: left;
+}
+
+.gifts__card p {
+    padding: 24px 0 74px 24px;
+    font-weight: bold;
 }
 
 
