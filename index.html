@@ -12,78 +12,250 @@
     />
     <link rel="stylesheet" href="css/styles.css" />
     <title>landing page</title>
+
+    <!-- <link
+    href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <title>Landing page</title> -->
+
+
   </head>
   <body>
 
+    <!-- inicio seccion 1 -->
 
-    <!--*******************************************  Modulo 4. blog  ********************************************-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand me-4 ms-3 nav__logo">logo</a>
+        <ul class="d-flex justify-content-between links ms-3">
+          <li class="nav-item"><a class="nav-link" href="">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="">About us</a></li>
+          <li class="nav-item"><a class="nav-link" href="">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="">Blogs</a></li>
+        </ul>
 
-
-    <div class="blog container">
-      <!-- Header -->
-      <div class="blog__header text-center lh-lg">
-        <h1 class="blog__title fw-normal mt-5 mb-3">Our Best Blogs Ever</h1>
-        <p class="blog__text mb-5">
-          “Try our blog to find the best tips and tricks to select your gift”
-        </p>
+        <button class="btn btn-outline-warning" type="submit">
+          GET FINDER
+        </button>
       </div>
-
-      <!-- contenedor -->
-      <div class="blog_content card mb-5 rounded bg-dark text-white">
-        <div class="row g-0">
-          <div class="col-md-5">
-            <img
-              class="blog__content--imagen roundend img-fluid"
-              src="./assets/novios.png"
-              alt="novios"
-            />
-          </div>
-          <div
-            class="col-md-7 text-md-start text-center d-flex align-items-center"
-          >
-            <div class="blog__content--body card-body">
-              <p class="card-title">Mr. John Doe</p>
-              <h1 class="card-text">
-                The best way to wish <br />
-                your wife
-              </h1>
-              <p class="card-text">
-                <small class="text-muted">Read More</small>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- card -->
-      <div class="blog__card d-flex row">
+    </nav>
+    <div class="container modulo1__giftsSection">
+      <div class="row modulo1__giftsSection">
         <div
-          class="card-body shadow-sm p-3 mb-5 bg-body rounded col-12 col-md-6"
+          class="
+            col-6
+            d-flex
+            flex-column
+            justify-content-center
+            modulo1__giftsSection modulo1__imageSection
+          "
         >
-          <h2 class="card-title">
-            Database to find the gifts for your girlfriend
-          </h2>
-          <p class="card-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore...
-          </p>
-          <p class="card-text"><small class="text-muted">Read More</small></p>
+          <div class="modulo1__findGift">
+            <h1 class="mb-5">Find a gift for your wife or girlfriend</h1>
+            <p class="mb-5">
+              Struggling to find a gift for your wife or girlfriend? No problem!
+            </p>
+            <button class="btn modulo1__btn-findGift">FIND GIFT NOW</button>
+          </div>
         </div>
-        <div class="card-body col-12 col-md-6">
-          <h2 class="card-title">
-            How Artificial Intelligence read your mind to find the best gift
-          </h2>
-          <p class="card-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore...
-          </p>
-          <p class="card-text"><small class="text-muted">Read More</small></p>
+        <div class="col-6 modulo1__giftsSection">
+          <img
+            class="modulo1__grid-image"
+            src="./assets/mod1Romance1.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="row modulo1__giftsSection">
+        <div class="col-6 modulo1__giftsSection">
+          <img
+            class="modulo1__grid-image"
+            src="./assets/mod1Romance2.png"
+            alt=""
+          />
+        </div>
+        <div
+          class="
+            col-6
+            d-flex
+            flex-column
+            justify-content-center
+            modulo1__giftsSection modulo1__imageSection
+          "
+        >
+          <div class="modulo1__findGift">
+            <h1 class="mb-5">How we work</h1>
+            <p class="mb-5">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa ad
+              ex quasi debitis odit mollitia reiciendis blanditiis cumque
+              quisquam ut veniam maiores quis corrupti doloremque, delectus
+              porro! Distinctio, molestias! Quas.
+            </p>
+            <button class="btn btn-outline-warning" type="submit">
+              LEARN MORE
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Fin Seccion 1 -->
+
+    <!-- Sección dos/Gifts for all occasions -->
+
+    <div class="gifts">
+      <h1>Gifts for all Occasions</h1>
+      <p>"Try our web app to find the best gifts for all occasions"</p>
+      <div class="gifts__content">
+        <div class="gifts__card">
+          <img src="/assets/gifts_for_all_occasions_birthday.png" alt="" />
+          <h3>Birthday</h3>
+          <p>See More ></p>
+        </div>
+        <div class="gifts__card">
+          <img src="/assets/gifts_for_all_occasions_anniversary.png" alt="" />
+          <h3>Anniversary</h3>
+          <p>See More ></p>
+        </div>
+        <div class="gifts__card">
+          <img
+            src="/assets/gifts_for_all_occasions_valentines_day.png"
+            alt=""
+          />
+          <h3>Valentine's Day</h3>
+          <p>See More ></p>
+        </div>
+        <div class="gifts__card">
+          <img src="/assets/gifts_for_all_occasions_christmas.png" alt="" />
+          <h3>Christmas</h3>
+          <p>See More ></p>
         </div>
       </div>
     </div>
 
-    <!--******************************************* Fin Modulo 4.  ********************************************-->
+    
 
     
+    <!-- inicio seccion tres -->
+
+    <section class="container mod3__container d-flex align-items-center">
+      <div>
+        <p class="container_title">Ready to get started?</p>
+        <p class="container_title_dos">Sign up or contact us</p>
+      </div>
+
+      <div class="get_started_buttons ms-auto">
+        <button class="btn btn-dark" type="button">Find gift now</button>
+        <button class="btn btn-secondary" type="button">how it works</button>
+      </div>
+    </section>
+
+    <!-- fin seccion tres -->
+
+        <!--*******************************************  Modulo 4. blog  ********************************************-->
+
+
+        <div class="blog container">
+          <!-- Header -->
+          <div class="blog__header text-center lh-lg">
+            <h1 class="blog__title fw-normal mt-5 mb-3">Our Best Blogs Ever</h1>
+            <p class="blog__text mb-5">
+              “Try our blog to find the best tips and tricks to select your gift”
+            </p>
+          </div>
+    
+          <!-- contenedor -->
+          <div class="blog_content card mb-5 rounded bg-dark text-white">
+            <div class="row g-0">
+              <div class="col-md-5">
+                <img
+                  class="blog__content--imagen roundend img-fluid"
+                  src="./assets/novios.png"
+                  alt="novios"
+                />
+              </div>
+              <div
+                class="col-md-7 text-md-start text-center d-flex align-items-center"
+              >
+                <div class="blog__content--body card-body">
+                  <p class="card-title">Mr. John Doe</p>
+                  <h1 class="card-text">
+                    The best way to wish <br />
+                    your wife
+                  </h1>
+                  <p class="card-text">
+                    <small class="text-muted">Read More</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <!-- card -->
+          <div class="blog__card d-flex row">
+            <div
+              class="card-body shadow-sm p-3 mb-5 bg-body rounded col-12 col-md-6"
+            >
+              <h2 class="card-title">
+                Database to find the gifts for your girlfriend
+              </h2>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore...
+              </p>
+              <p class="card-text"><small class="text-muted">Read More</small></p>
+            </div>
+            <div class="card-body col-12 col-md-6">
+              <h2 class="card-title">
+                How Artificial Intelligence read your mind to find the best gift
+              </h2>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore...
+              </p>
+              <p class="card-text"><small class="text-muted">Read More</small></p>
+            </div>
+          </div>
+        </div>
+
+
+
+    <!--******************************************* Fin Modulo 4.  ********************************************-->
+
+    <!-- Footer: Andres -->
+    <div>
+      <ul class="footer-navbar">
+        <li>Home</li>
+        <li>About</li>
+        <li class="footer-logo">Logo</li>
+        <li>Service</li>
+        <li>Blog</li>
+      </ul>
+    </div>
+    <div class="footer-line-container">
+      <div class="footer-line"></div>
+    </div>
+    <div>
+      <ul class="footer-social-media">
+        <a href="">
+          <li><img src="assets/facebook.png" /></li
+        ></a>
+        <a href=""><li><img src="assets/twitter.png" /></li></a>
+        <a href=""><li><img src="assets/instagram.png" /></li></a>
+        <a href=""><li><img src="assets/youtube.png" /></li></a>
+        <a href=""><li><img src="assets/pinterest-social-logo.png" /></li></a>
+      </ul>
+    </div>
+    <div class="footer-end">
+      <p>2010 - 2020 Privacy - Terms</p>
+    </div>
+
+    <!-- Footer END -->
   </body>
 </html>
