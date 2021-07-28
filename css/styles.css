@@ -1,3 +1,4 @@
+
 /* Inicio modulo 1 */
 nav {
   width: 100%;
@@ -124,6 +125,26 @@ nav .links {
   border: 1px solid #000000;
   color: #000000;
 }
+
+/* Inicio modulo 4 blog */
+.blog__content--body {
+  line-height: 100px;
+}
+
+@media (max-width: 768px) {
+  .blog__content--imagen {
+    display: block;
+    margin: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .blog__content--body {
+    line-height: 10px;
+  }
+}
+
+/* Fin modulo 4 blog */
 
 /* Footer: Andres */
 
